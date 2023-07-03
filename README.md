@@ -21,7 +21,7 @@ In my other repo You can find identical example for other language (Python).
 
 And that's all... in other my branch You can find some real project...
 
-## Ad. 1 - How to prepare development env using Docker.
+## Ad. 1) - How to prepare development env using Docker.
 
 Docker is a great soft to use it in cases when we mast use Apache Kafka, but we don't have it... Then, we can run 
 Apache Kafka locally in simple way. Just You must do:
@@ -53,8 +53,14 @@ Use command `docker compose up -d` from file localization.
 >>- (!) Whole project have configuration localized in class (close to subject). That approach it's not correct but allow better focus on subject problem.
 >>- (!) In general - it's not clean code... it's education code! (for education, sometime better is create dirty code...)
 
-## Ad. 2 - How to create topic from Java using Admin
+## Ad. 2) - How to create topic from Java using Admin
 - simple example how to create topic with AdminClient object from kafka-clients lib: [TopicsCreator.java](src%2Fmain%2Fjava%2Fpl%2Fdirtyread%2Fsandbox%2Fjava%2Fkafka%2Fadmins%2FTopicsCreator.java)
+
+## Ad. 3) How to create simple Apache Kafka producer,
+- TODO
+
+## Ad. 4) How to create simple Apache Kafka consumer,
+- TODO
 
 ## Ad. 5 - How to write test for these subjects
 - Test create topic: simple example - [TopicsCreatorTest.java](src%2Ftest%2Fjava%2Fpl%2Fdirtyread%2Fsandbox%2Fjava%2Fkafka%2Fadmins%2FTopicsCreatorTest.java)
